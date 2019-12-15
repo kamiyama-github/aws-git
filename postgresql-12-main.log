@@ -1,0 +1,21 @@
+2019-12-13 15:49:10.005 JST [6556] LOG:  starting PostgreSQL 12.1 (Ubuntu 12.1-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit
+2019-12-13 15:49:10.008 JST [6556] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2019-12-13 15:49:10.033 JST [6556] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5433"
+2019-12-13 15:49:10.131 JST [6557] LOG:  database system was shut down at 2019-12-13 15:47:38 JST
+2019-12-13 15:49:10.212 JST [6556] LOG:  database system is ready to accept connections
+2019-12-13 15:54:10.601 JST [6558] WARNING:  could not flush dirty data: Function not implemented
+2019-12-13 16:03:41.275 JST [6638] postgres@postgres ERROR:  syntax error at or near "/" at character 1
+2019-12-13 16:03:41.275 JST [6638] postgres@postgres STATEMENT:  /du
+	ALTER ROLE kamiyama LOGIN;
+2019-12-13 16:15:57.363 JST [7634] kamiyama@kamiyama FATAL:  database "kamiyama" does not exist
+2019-12-13 16:16:11.708 JST [7644] kamiyama@start FATAL:  database "start" does not exist
+2019-12-13 23:08:43.440 JST [6556] LOG:  received fast shutdown request
+2019-12-13 23:08:43.450 JST [6556] LOG:  aborting any active transactions
+2019-12-13 23:08:43.460 JST [6556] LOG:  background worker "logical replication launcher" (PID 6563) exited with exit code 1
+2019-12-13 23:08:43.461 JST [6558] LOG:  shutting down
+2019-12-13 23:08:43.563 JST [6556] LOG:  database system is shut down
+2019-12-15 16:20:43.201 JST [113] LOG:  starting PostgreSQL 12.1 (Ubuntu 12.1-1.pgdg18.04+1) on x86_64-pc-linux-gnu, compiled by gcc (Ubuntu 7.4.0-1ubuntu1~18.04.1) 7.4.0, 64-bit
+2019-12-15 16:20:43.212 JST [113] LOG:  listening on IPv4 address "127.0.0.1", port 5433
+2019-12-15 16:20:43.235 JST [113] LOG:  listening on Unix socket "/var/run/postgresql/.s.PGSQL.5433"
+2019-12-15 16:20:43.572 JST [114] LOG:  database system was shut down at 2019-12-13 23:08:43 JST
+2019-12-15 16:20:43.795 JST [113] LOG:  database system is ready to accept connections
